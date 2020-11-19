@@ -9,4 +9,6 @@ DONE: 12.05.2020 - 19.07.2020
 Diagrams: not completely UML conformable
 
 
-![alt text](https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png)
+<p align="center">
+  <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png">
+</p>
