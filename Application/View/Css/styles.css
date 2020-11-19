@@ -1,0 +1,761 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: Leelawadee;
+    color: white;
+}
+
+body{
+    background-color: #1B2C3D; /* dark-blue */
+    
+}
+
+
+header {
+    margin-top: 0px;   
+    
+}
+
+h1{
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+p {
+    color: #9A9A9A; /* grey */
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.link:hover{
+    color: #9FB3FF;
+}
+
+button{
+    color: white;
+    background-color: #9FB3FF; /* light-blue */
+    border: none;
+    font-size: 16px;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    outline: none;
+    margin: 7px;
+    cursor:pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #313e72; /* middle-blue */
+    border: none;
+    font-size: 16px;
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid #9A9A9A; /* grey */
+    background-color: #1B2C3D;
+    border-radius: 50px;
+    padding: 3px 14px;
+    margin: 5px;
+    outline: none;
+    width: 200;
+    height: 40;
+    font-size: 15px;
+}
+
+textarea {
+    border: 1px solid #9A9A9A; /* grey */
+    background-color: #1B2C3D;
+    border-radius: 20px;
+    padding: 10px 18px;
+    outline: none;
+    overflow: hidden;
+    resize:none
+}
+
+ul{
+    margin: auto;
+    width: 450px;
+    border: 1px solid #9A9A9A; /* grey */
+    background-color: #1B2C3D;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+li{
+    display: flex;
+    padding: 5px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+/* Auto Complete Chrome Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #1B2C3D inset !important;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    -webkit-text-fill-color: white !important;
+}
+
+
+
+/* Allgemein */
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1px;
+        margin-bottom: 1px;
+        margin-top: 100px;
+    }
+
+    .number {
+        color: #9A9A9A;
+        font-size: 16px;
+        float: left;
+        margin-top: 27px;
+    }
+
+    .iconButton{
+        background: none;
+        border: none;
+        padding: 0 !important;
+        width: 70px;
+        height: 70px;
+        color: white;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        display: block;
+        
+    }
+
+    .iconButton:hover{
+        color: white;
+        background-color: #313e72; /* middle-blue */
+        border: none;
+        font-size: 16px;
+        padding: 10px 22px;
+        border-radius: 50px;
+        font-weight: bold;
+        transition-duration: 0.2s;
+    }
+
+
+
+/* Logging */
+
+    .loginInput {
+        padding: 12px 16px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .loginButton {
+        width: 280px;
+        padding: 12px 16px;
+        margin-bottom: 0;
+    }
+
+    .loginButton:hover {
+        width: 280px;
+        padding: 12px 16px;
+    }
+
+
+    .signIn {
+        text-align: center;
+    }
+
+    .loginBottom {
+        position: absolute;
+        width: 300px;
+        margin-bottom: 150;
+        margin-left: 635;
+    }
+
+    .backtoSign {
+        background: none !important;
+        border: none;
+        padding: 0 !important;
+        width: 125px;
+        color: white;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        float: right;
+        margin: 10px;
+        margin-left: 1px;
+
+    }
+
+    .backtoSign:hover {
+        font-size: 12px;
+        color: #9A9A9A;
+    }
+
+    #logoutButton{
+        background-color: rgb(255, 0, 76);
+    }
+
+    #logoutButton:hover{
+        background-color: rgb(143, 19, 50);
+        transition-duration: 0.2s;
+    }
+
+
+
+/* Startseite */
+
+    #logoStartpage{
+        width:70px;
+        height:70px;
+        /* position: fixed; */
+    }
+
+    #searchtextInput {
+        padding: 10px 16px;
+        font-size: 14px;
+        width: 400px;
+        position: fixed;
+    }
+
+    #searchList{
+        width: 400px;
+        margin-left: 10px;
+        position: absolute;
+        margin-top: 55;
+    }
+
+    .usernameSearchlist{
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        
+        
+    }
+
+    .usernameSearchlist:hover{
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        color: #9FB3FF;
+        text-decoration: none;
+    }
+
+    #newPost{
+        resize: none;
+        margin-left: 3px;
+        
+    }
+
+
+
+/* Profile */
+
+    .username{
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        position: absolute;   
+    }
+
+    .username:hover {
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        color: #9FB3FF;
+        text-decoration: none;
+    }
+
+
+    .usernameBig{
+        font-size: 26px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: none;
+        position: absolute;
+    }
+
+    .follower{
+        position: absolute;
+        margin-top: 40;
+    }
+
+    .followerLabel{
+        font-size: 24px;
+        position: absolute;
+    }
+
+    .followerNumber{
+        color: #9A9A9A;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 100px;
+    }
+
+    .following{
+        position: absolute;
+        margin-top: 40;
+        margin-left: 130px;
+    }
+
+    .followingLabel{
+        font-size: 24px;
+        position: absolute;
+    }
+
+    .followingNumber{
+        color: #9A9A9A;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 112px;
+    }
+
+
+    .followingButton{
+        background-color:#757109;
+        position: fixed;
+        margin-top: 75;
+        margin-left: 0;
+    }
+
+    .followingButton:hover{
+        background-color: #41400D;
+    }
+
+    .followButton{
+        background-color:#D8B861;
+        position: fixed;
+        margin-top: 75;
+        margin-left: 0;
+    }
+
+    .followButton:hover{
+        background-color: #41400D;
+    }
+
+
+
+/* Post  */
+
+    .post {
+        border: 1px solid #9A9A9A; /* grey */
+        background-color: #1B2C3D;
+        border-radius: 20px;
+        padding: 10px 18px;
+        outline: none;
+        width: 500px;
+        margin: 3px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+
+    .time{
+        text-align: right;
+        align-items: end;
+        color: #9A9A9A;
+        font-size: 12px;
+        width: auto;
+        float: right;
+    }
+
+    .contentPost{
+        /* border: solid; */
+        /* height:auto; */
+        height: 120px;
+        width: 500px;
+        font-size: 14px;
+        position: absolute;
+        margin-top: 30;
+        word-wrap : break-word;
+    }
+
+    .likeBar {
+        height: 40px;
+        width: 300px;
+        font-size: 14px;
+        margin-top: 170px;
+    }
+
+    .likeButton{
+        background: none !important;
+        border: none;
+        padding: 0 !important;
+        width: 20px;
+        height: 20px;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        float: left;
+        padding-right: 10px;
+        margin-left: 1px;
+        margin-top: 24px;
+    }
+
+    .commentButton{
+        background: none !important;
+        border: none;
+        padding: 0 !important;
+        width: 20px;
+        height: 20px;
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 12px;
+        float: left;
+        margin-left: 1px;
+        margin-top: 24px;
+    } 
+
+    .commentImage{
+        float: left;
+        margin-left: 1px;
+        margin-top: 24px;
+
+    }
+
+
+    .dropbtn {
+        background: none !important;
+        color: grey;
+        transition-duration: 0.2s;
+        border: none;
+        font-weight: bold;
+        padding:1px 1px;
+        position: absolute;
+        margin-top:8;
+        margin-left: 390px;
+    }
+
+    .dropbtn:hover {
+
+        color: #9FB3FF;
+        border: none;
+        font-weight: bold;
+        padding:1px 1px;
+        position: absolute;
+        margin-top:8;
+        margin-left: 390px;
+    }
+
+    .dropdown{
+        display: inline-block;
+        transition-duration: 0.2s;
+        height: auto;
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        background-color: #0c1b2b; /* strong dark-blue */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 50;
+        margin-left: 385;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #313e72;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+
+/* Comment  */
+
+    .inputComment{
+        border: 1px solid #9A9A9A; /* grey */
+        background-color: #1B2C3D;
+        border-radius: 50px;
+        padding: 3px 14px;
+        margin: 5px;
+        outline: none;
+        height: 22px;
+    }
+
+    .submitComment{
+        color: white;
+        background-color: #9FB3FF; /* light-blue */
+        border: none;
+        font-size: 16px;
+        border-radius: 50px;
+        font-weight: bold;
+        transition-duration: 0.2s;
+        outline: none;
+        border-radius: 50px;
+        padding: 2px 14px;
+        outline: none;
+    }
+
+    .submitComment:hover{
+        color: white;
+        background-color: #313e72; /* middle-blue */
+        padding: 2px 14px;
+    }
+
+    .contentComment{
+        height: 50px;
+        width: 500px;
+        font-size: 14px;
+        margin-top: 30;
+        word-wrap : break-word;
+    }
+
+    .likeBarComment{
+        height: 40px;
+        width: 500px;
+    }
+
+    .dropbtnComment{
+        background: none !important;
+        color: grey;
+        transition-duration: 0.2s;
+        border: none;
+        font-weight: bold;
+        padding:1px 1px;
+        position: absolute;
+        margin-top:0;
+        margin-left: 470;
+    }
+
+    .dropbtnComment:hover {
+        color: #9FB3FF;
+        border: none;
+        font-weight: bold;
+        padding:1px 1px;
+    }
+
+    .dropdownComment{
+        display: inline-block;
+        transition-duration: 0.2s;
+        height: auto;
+        position: relative;
+    }
+
+    .dropdownComment-content {
+        display: none;
+        background-color: #0c1b2b; /* strong dark-blue */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 35;
+        margin-left: 457;
+    }
+
+    .dropdownComment-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .dropdownComment-content a:hover {
+        background-color: #313e72;
+    }
+
+    .dropdownComment:hover .dropdownComment-content {
+        display: block;
+    }
+
+
+
+/* Other */
+
+    .submitEditProfile{
+        width: 125;
+    }
+
+    .noPosts{
+        position: absolute;
+        margin-left: 280;
+        margin-top: 80;
+    }
+
+    .noUsername{
+        color: #9A9A9A; /* grey */
+        font-size: 14px;
+        position: absolute;
+        margin-top: 260;
+        margin-left: 670;
+
+    }
+
+    .noFollower{
+        color: #9A9A9A; /* grey */
+        font-size: 14px;
+        position: absolute;
+        margin-top: 50;
+        margin-left: 590;
+    }
+
+    .noFriends{
+        position: absolute;
+        margin-left: 280;
+        margin-top: 80;
+    }
+
+
+    /* No Use */
+    .neu{
+        background-color: #9FB3FF;
+        float: left;
+        width: 60px;
+        height: 80px;
+    }
+
+
+
+/* Positioning */
+
+    .top{
+        margin: 10px;
+        position: absolute;
+        top:0;
+    } 
+
+    .left{
+        margin: 10px;
+        position: fixed;
+        left: 0;
+    }
+
+    .center{
+        position: absolute;
+        top: 30;
+        left: 0;
+        right: 0;
+        margin: 10px;
+    }
+
+    .centerMargin{
+        text-align: center;
+    }
+
+    .right{
+        margin: 10px;
+        position: fixed;
+        right: 0;
+    }
+
+    .content{
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 150;
+        width: 1300px;
+    }
+
+    .bottom{
+        margin: 10px;
+        position: absolute;
+    }
+
+    #startpageRight {
+        float: right;
+        margin-top: 10px;
+    }
+
+    #startpageRightContent{
+        margin-right: 40px;
+    }
+
+    #startpageLeft {
+        margin-top: 10px;
+        float: left;
+    }
+
+    .settingsCenter{
+        margin: 0;
+    }
+
+    .userInformationContainer{
+        background-color: #41400D;
+        position: fixed;
+    }
+
+    .postcontainer{
+        margin: auto;
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    .postcontainerUser{
+        margin: auto;
+        margin-left: 350;  
+    }
+
+    .optionsButtonContainer{
+        height:50px;
+    }
+
+    .noAccount{
+        position: absolute;
+        margin-left: 45;
+        
+    }
+    
+    .alreadyAccount{
+        position: absolute;
+        margin-left: 5;
+    }
+    
+    .signUpLink{
+        position: absolute;
+        margin-left: 110;
+        margin-top: 5;
+    }
+    
+    .signinLink{
+        position: absolute;
+        margin-left: 146;
+        margin-top: 5;
+    }
+    
+
+
+
+
+
+
