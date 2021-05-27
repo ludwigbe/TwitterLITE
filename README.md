@@ -1,5 +1,5 @@
 <h2 align="center" font-size>
-    TwitterLITE
+TwitterLITE
 </h2>
 
 <p align="center">
