@@ -1,4 +1,6 @@
-**TwitterLITE**
+<p align="center">
+     **TwitterLITE**
+</p>
  - Developer: Erdem Koc, Ludwig Bergemann
 
 
@@ -10,5 +12,5 @@ Diagrams: not completely UML conformable
 
 
 <p align="center">
-  <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png" width="120">
+  <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png" width="150">
 </p>
