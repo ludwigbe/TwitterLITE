@@ -16,5 +16,5 @@ A clone of the dynamic website Twitter with Database and Custom Design.
 Diagrams: not completely UML conformable
 
 
-
+Watch Video: https://github.com/ludwigbe/TwitterLITE/blob/main/TwitterLite%20Pr%C3%A4sentation.mp4
 
