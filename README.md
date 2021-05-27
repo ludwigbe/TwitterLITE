@@ -9,7 +9,7 @@ TwitterLITE
 A clone of the dynamic website Twitter with Database and Custom Design.
 
 
-***
+<hr>
 
  - Developed by Erdem Koc and Ludwig Bergemann
 
