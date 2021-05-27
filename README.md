@@ -1,6 +1,6 @@
-<p align="center">
-# TwitterLITE
-</p>
+<h2 align="center" font-size>
+    TwitterLITE
+</h2>
 
 <p align="center">
   <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png" width="170">
