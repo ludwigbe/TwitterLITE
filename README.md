@@ -1,9 +1,9 @@
-<p style="text-align: center;">
+
     ##TwitterLITE
-</p>
+
 
 <p align="center">
-  <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png" width="150">
+  <img src="https://github.com/ludwigbe/TwitterLITE/blob/main/Twitter_LITE%20Logo.png" width="170">
 </p>
 
 A clone of the dynamic website Twitter with Database and Custom Design.
